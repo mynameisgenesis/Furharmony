@@ -8,9 +8,6 @@
     android:background="#ffffffff"
     android:id="@+id/MainLoginPage">
 
-    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="150dp"
@@ -22,6 +19,30 @@
         android:layout_marginLeft="0dp"
         android:layout_alignWithParentIfMissing="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"></FrameLayout>
+        android:layout_alignParentEnd="true"
+        android:id="@+id/frameLayout"></FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="!"
+        android:id="@+id/usernameView"
+        android:singleLine="true"
+        android:layout_below="@+id/frameLayout"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome   "
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/usernameView"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
+        android:paddingLeft="10dp" />
 
 </RelativeLayout>

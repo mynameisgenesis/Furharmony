@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="@drawable/roomiesfurlife"
+        android:background="@drawable/logo"
         android:layout_marginTop="0dp"
         android:layout_marginLeft="0dp"
         android:layout_alignWithParentIfMissing="true"

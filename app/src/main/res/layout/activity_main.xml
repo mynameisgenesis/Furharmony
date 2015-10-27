@@ -17,7 +17,7 @@
         android:layout_alignWithParentIfMissing="false"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/roomiesfurlife"
+        android:background="@drawable/logo"
         android:id="@+id/frameLayout2"></FrameLayout>
 
     <EditText

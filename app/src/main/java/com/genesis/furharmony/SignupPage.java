@@ -1,9 +1,13 @@
 package com.genesis.furharmony;
 
+/*import android.app.AlertDialog;*/
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+/*import android.view.Gravity;*/
 import android.view.Menu;
 import android.view.MenuItem;
+/*import android.widget.EditText;*/
+/*import android.widget.TextView;*/
 
 
 public class SignupPage extends ActionBarActivity {
@@ -35,6 +39,16 @@ public class SignupPage extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    /*public void checkPasswords (){
+    EditText password1 = (EditText)findViewById(R.id.passwordText1);
+    EditText password2 = (EditText)findViewById(R.id.passwordText2);
 
-
+    if (password1.equals(password2)){
+            AlertDialog.Builder popupBuilder = new AlertDialog.Builder(this);
+            TextView alertMsg = new TextView(this);
+            alertMsg.setText("Your passwords match");
+            alertMsg.setGravity(Gravity.CENTER_HORIZONTAL);
+            popupBuilder.setView(alertMsg);
+        }
+    }*/
 }

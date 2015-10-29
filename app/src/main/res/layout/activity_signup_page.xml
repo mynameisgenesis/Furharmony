@@ -19,7 +19,7 @@
         android:background="#ffffffff" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="55dp"
         android:inputType="textPersonName"
         android:text="First Name"
@@ -27,9 +27,7 @@
         android:id="@+id/firstNameTxt"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -95,6 +93,8 @@
         android:id="@+id/signupSave"
         android:layout_below="@+id/passwordText2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="48dp"
+        android:focusable="false"
+        android:onClick="checkPasswords" />
 
 </RelativeLayout>
